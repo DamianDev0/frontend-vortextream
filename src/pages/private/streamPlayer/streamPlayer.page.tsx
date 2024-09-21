@@ -91,6 +91,7 @@ export default function StreamPage() {
             className="iframe-streamTwitch"
             src={`https://player.twitch.tv/?channel=${user_name}&parent=localhost`}
             allowFullScreen
+            sandbox="allow-same-origin allow-scripts allow-popups"
           ></iframe>
         </div>
         <div className="container-info-streamer-live">
