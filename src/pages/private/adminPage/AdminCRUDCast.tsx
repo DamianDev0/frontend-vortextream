@@ -51,7 +51,7 @@ export function AdminCrudCastPage() {
   };
 
   // Función para manejar el guardado de un ítem
-  const handleSave = (name: string, image: File | null) => {
+  const handleSave = (name: string, _image: File | null) => {
     if (selectedItem) {
       // Editar ítem existente
       const updatedItems = items.map((item) =>

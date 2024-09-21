@@ -12,7 +12,7 @@ export default function StreamPage() {
 
   const [streamerData, setStreamerData] = useState<Streamer[]>([]);
   const [imgProfileStreamer, setImgProfileStreamer] = useState<string | undefined>(profile_image_url);
-  const [error, setError] = useState<string | null>(null);
+  const [error,] = useState<string | null>(null);
 
   const clientId = import.meta.env.VITE_TWITCH_CLIENT_ID;
   const accessToken = import.meta.env.VITE_TWITCH_ACCESS_TOKEN;
