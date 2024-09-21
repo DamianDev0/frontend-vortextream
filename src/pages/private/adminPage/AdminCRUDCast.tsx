@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import ContentDeleteAndEdit from "./components/ContentDeleteAndEdit";
 import FormCrudCastComponent from "./components/CrudCast/Form.cast";
 import GridCrudComponent from "./components/GridCrud.component";

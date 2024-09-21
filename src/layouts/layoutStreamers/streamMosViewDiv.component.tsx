@@ -1,14 +1,14 @@
-import React from "react";
 import styled from "styled-components";
 
 interface StreamMostViewProps {
   id: string;
   game_name: string;
-  type: string;
-  user_name: string;
-  viewer_count: number
-  thumbnail_url: string;
+  type: string  | undefined;
+  user_name: string | undefined,
+  viewer_count: number;
+  thumbnail_url?: string; 
 }
+
 
 const StreamMostViewComponent = ({ thumbnail_url, id, game_name, type, user_name, viewer_count }: StreamMostViewProps) => {
     

@@ -1,4 +1,4 @@
-import React from "react";
+
 import styled from "styled-components";
 import { Streamer } from "../../interfaces/streamer.interface";
 import { useNavigate } from "react-router-dom";
@@ -7,7 +7,6 @@ const CardStreamerComponent = ({
   id,
   game_name,
   title,
-  type,
   user_name,
   viewer_count,
   thumbnail_url,

@@ -8,7 +8,7 @@ export function AdminCrudSubcategoriesPage() {
                 <NavBarAdmin />
             </div>
             <section className="container-all-crud">
-                <GridCrudComponent />
+                <GridCrudComponent  />
             </section>
         </div>
     )

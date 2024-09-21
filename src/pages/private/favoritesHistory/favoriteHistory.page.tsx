@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import { CardProps } from "../../../common/interfaces/media.interface";
 import "./styles/styles.css";
 import CardComponent from "../../../common/components/sliderCards.component/sliderCard.component";
