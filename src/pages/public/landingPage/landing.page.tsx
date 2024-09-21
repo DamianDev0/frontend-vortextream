@@ -14,7 +14,7 @@ import CardSmallComponent from "../../../common/components/smallCard/cardContinu
 export default function LandingPage() {
   const [dataMediaCountry, setDataMediaCountry] = useState<CardProps[]>([]);
   const [mediaRecent, setMediaRecentlyAdd] = useState<CardProps[]>([]);
-  const [errorMessage, setErrorMessage] = useState<string | undefined>(
+  const [, setErrorMessage] = useState<string | undefined>(
     undefined
   );
 
@@ -31,9 +31,6 @@ export default function LandingPage() {
         const res = await fetch(`${baseUrl}${API_KEY}&language=en-US&page=2`);
 
         if (!res.ok) {
-          const resErrorMessage = res.json();
-          setErrorMessage("An error occurred");
-
           throw new Error("An error occurred");
         }
 
@@ -68,9 +65,6 @@ export default function LandingPage() {
         const res = await fetch(`${baseUrl}${API_KEY}&language=en-US&page=4`);
 
         if (!res.ok) {
-          const resErrorMessage = res.json();
-          setErrorMessage("An error occurred");
-
           throw new Error("An error occurred");
         }
 

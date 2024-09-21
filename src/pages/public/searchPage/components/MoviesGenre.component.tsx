@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import SwiperComponent from "../../../../common/components/sliderCards.component/swiperComponent/swiperSlider.component";
 import CardComponent from "../../../../common/components/sliderCards.component/sliderCard.component";
 import { CardProps } from "../../../../common/interfaces/media.interface";
@@ -16,7 +16,7 @@ interface MoviesByGenreComponentProps {
 }
 
 export const MoviesByGenreComponent = ({ genres, moviesByGenre }: MoviesByGenreComponentProps) => {
-  const [errorMessage, setErrorMessage] = useState<string | undefined>(undefined);
+  const [errorMessage,] = useState<string | undefined>(undefined);
 
   return (
     <div className="container-moviesByGenre">

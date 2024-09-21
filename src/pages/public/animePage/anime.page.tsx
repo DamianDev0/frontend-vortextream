@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import  { useState, useEffect } from "react";
 import CardAnime, { CardAnimeProps } from "./components/CardAnime";
 import './styles/headeranimes.css';
 import HeaderComponent from "../../../common/components/header/header.component";
@@ -12,11 +12,11 @@ export function AnimePage() {
     const [animes, setAnimes] = useState<AnimeInfo[]>([]);
     const [searchResults, setSearchResults] = useState<AnimeInfo[]>([]);
     const [loading, setLoading] = useState(true);
-    const [error, setError] = useState<string | null>(null);
+    const [, setError] = useState<string | null>(null);
     const [page, setPage] = useState(1);
     const [totalPages, setTotalPages] = useState(1);
     const [query, setQuery] = useState<string>("");
-    const [selectedCategory, setSelectedCategory] = useState<number | null>(null); // Añadimos el estado de la categoría seleccionada
+    const [selectedCategory, ] = useState<number | null>(null); // Añadimos el estado de la categoría seleccionada
 
     // Fetch top animes or filter by category
     useEffect(() => {
