@@ -89,9 +89,8 @@ export default function StreamPage() {
         <div className="container-streamer-live">
           <iframe
             className="iframe-streamTwitch"
-            src={`https://player.twitch.tv/?channel=${user_name}&parent=https://main--vortextream.netlify.app/`}
+            src={`https://player.twitch.tv/?channel=${user_name}&parent=https://main--vortextream.netlify.app`}
             allowFullScreen
-            sandbox="allow-same-origin allow-scripts allow-popups"
           ></iframe>
         </div>
         <div className="container-info-streamer-live">
