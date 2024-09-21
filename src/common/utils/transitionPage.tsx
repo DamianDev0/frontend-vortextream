@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import './styleTransition.css';
 
 const TransitionPage = () => {
-    const [isVisible, setIsVisible] = useState(true);
+    const [, setIsVisible] = useState(true);
 
     const handleExitComplete = () => {
         setIsVisible(false); 
