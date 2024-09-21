@@ -1,0 +1,65 @@
+.footer{
+    background-color: #2f32419c;
+    margin-left: 3.8rem;
+    border-right: 1px solid #F08080;
+    border-top: 1px solid #F08080;
+    height: 30rem;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+
+
+.container-image-sub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 90px;
+}
+
+.image-footer{
+    width: 250px;
+}
+
+.contact-title{
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+    color: #F08080;
+}
+
+.phone, .email {
+    display: flex;
+    align-items: center; /* Centra verticalmente el ícono y el texto */
+    gap: 10px;
+    justify-content: center;
+    color: #fff;
+}
+
+.phone {
+    margin-right: 35px;
+}
+
+.social-networks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.sevices-select{
+    margin-top: 85px;
+}
+
+.copy-right {
+    font-size: 1.5rem;
+    color: #F08080;
+    font-style: italic;
+    font-weight: 100;
+}

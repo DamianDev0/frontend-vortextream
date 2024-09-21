@@ -1,0 +1,75 @@
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 7rem;
+    justify-content: space-between;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    padding: 0 1rem; 
+    box-sizing: border-box;
+    z-index:7;
+}
+
+.header-watch-stream{
+    display: flex;
+    width: 78rem;
+    height: 7rem;
+    justify-content: space-between;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    padding: 0 1rem; 
+    box-sizing: border-box;
+    z-index:7;
+}
+
+.container-search {
+    display: flex;
+    margin-right: 5rem;
+    gap: 2rem;
+    align-items: center;
+}
+
+.container-explorer {
+    display: flex;
+    margin-left: 6.5rem;
+    gap: 2rem;
+    align-items: center;
+}
+
+.logo {
+    min-width: 10rem;
+}
+
+.input-search {
+    width: 23rem;
+    height: 2.8rem;
+    background-color: #2F3241;
+    border: 2px solid;
+    border-color: #BCECE0;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    outline: none; 
+    color: white;
+}
+
+.input-search:focus {
+    outline: none; /* Elimina el borde de enfoque en el estado de enfoque */
+}
+
+/* Ocultar el ícono de borrar en la mayoría de los navegadores */
+.input-search::-ms-clear {
+    display: none;
+}
+
+/* Ocultar el ícono de borrar en WebKit (Chrome, Safari) */
+.input-search::-webkit-search-clear-button,
+.input-search::-webkit-search-decoration,
+.input-search::-webkit-search-cancel-button,
+.input-search::-webkit-search-submit-button {
+    -webkit-appearance: none;
+    appearance: none;
+}

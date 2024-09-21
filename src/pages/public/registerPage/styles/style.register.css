@@ -1,0 +1,81 @@
+/* Styles of register component */ 
+
+/* Register container */ 
+.register{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33rem;
+    height: 39rem;
+    text-align: center;
+    border-radius: 0rem 1rem 1rem 0px;
+}
+
+/* Container form  */
+.container-form{
+    background-color: #2F3241;
+    padding: 30px;
+    width: 18rem;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 29rem;
+}
+
+/* registration form container*/
+.register-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+/*style inputs: username, email, password, confirm password */
+.register-form input{
+    width: 16rem;
+    height: 35px;
+    border-radius: 18px;
+    font-size: 1rem;
+    padding-left: 2.5rem;
+    padding-top: 1px;
+    margin-right: 20px;
+}
+
+/*style of submit button*/
+.register-form button{
+    width: 9rem;
+    border-radius: 20px;
+    color: #2F3241;
+    font-size: large;
+    font-family: 'Satoshi', sans-serif;
+    background-color: #BCECE0;
+    height: 2.5rem;
+}
+
+/*style to organize the label with the icons in a coherent way */
+.register-form div{
+    display: flex;
+}
+
+/*style of authentication with google*/
+.google-container{
+    background-color: white;
+    width: 13rem;
+    border-radius: 25px;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-form select{
+    width: 19rem;
+    height: 41px;
+    border-radius: 18px;
+    font-size: 1rem;
+    padding-left: 2.5rem;
+    padding-top: 1px;
+    margin-right: 20px;
+}

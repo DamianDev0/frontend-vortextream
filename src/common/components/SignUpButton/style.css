@@ -1,0 +1,13 @@
+.signUp-button{
+    height: 3.4rem;
+    width: 6rem;
+    font-size: medium;
+    color: #2F3241;
+    background-color: #BCECE0;
+    border: 0;
+    font-weight: bold;
+}
+
+.signUp-button:hover{
+    background-color: #94cabd;
+}
